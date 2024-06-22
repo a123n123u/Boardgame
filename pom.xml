@@ -113,9 +113,16 @@
         </execution>
     </executions>
 </plugin>
-		</plugins>
-	</build>
-
-	
-
+</plugins>
+</build>
+<distributionManagement>
+	<repository>
+		<id>maven-releases</id>
+		<url>https://50325530-f688-4b73-bc82-ff3e1033bbce-10-244-7-154-8081.papa.r.killercoda.com/repository/maven-releases/</url>
+	</repository>
+	<snapshotRepository>
+		<id>maven-snapshots</id>
+		<url>https://50325530-f688-4b73-bc82-ff3e1033bbce-10-244-7-154-8081.papa.r.killercoda.com/repository/maven-snapshots/</url>
+	</snapshotRepository>
+</distributionManagement>
 </project>
