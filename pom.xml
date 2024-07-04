@@ -118,11 +118,11 @@
 <distributionManagement>
 	<repository>
 		<id>maven-releases</id>
-		<url>https://e49cd5b3-4a98-474d-a15e-b400de980a8c-10-244-7-103-8081.papa.r.killercoda.com/repository/maven-releases/</url>
+		<url>http://3.109.211.102:8081/repository/maven-releases/</url>
 	</repository>
 	<snapshotRepository>
 		<id>maven-snapshots</id>
-		<url>https://e49cd5b3-4a98-474d-a15e-b400de980a8c-10-244-7-103-8081.papa.r.killercoda.com/repository/maven-snapshots/</url>
+		<url>http://3.109.211.102:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
 </distributionManagement>
 </project>
