@@ -13,12 +13,9 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      - name: Setup Maven Action
-        uses: s4u/setup-maven-action@v1.19.0
   Compile:
     runs-on: ubuntu-latest
     steps:
-      - name: Compile
-        run: mvn compile
-    needs: checkout
+     - name: Run the Maven compile phase
+       run: mvn -compile 
   
