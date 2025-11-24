@@ -14,9 +14,5 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: maven
-  Compile:
-    runs-on: ubuntu-latest
-    needs: checkout
-    steps:
-     - name: Run the Maven compile phase
-       run:  mvn compile
+      - name: Run the Maven compile phase
+        run:  mvn compile
