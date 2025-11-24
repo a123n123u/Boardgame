@@ -23,5 +23,5 @@ jobs:
         with:
           name: gas.jar
           path: target/*.jar
-      - name: Trivy FS Scan
-        run: trivy fs --format table -o trivy-fs-report.html .
+      - name: Set up Trivy
+        uses: aquasecurity/trivy-action@0.33.1
