@@ -24,4 +24,4 @@ jobs:
           name: gas.jar
           path: target/*.jar
       - name: Set up Trivy
-        uses: aquasecurity/trivy-action@0.33.1
+        uses: aquasecurity/setup-trivy@v0.2.4
