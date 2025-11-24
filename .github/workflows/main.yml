@@ -18,4 +18,8 @@ jobs:
         run:  mvn compile
       - name: Run the Maven package phase
         run:  mvn package
+      - name: Upload Artifact
+        with:
+          name: gas.jar
+          path: target/*.jar
       
