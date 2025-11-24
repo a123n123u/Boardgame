@@ -26,4 +26,4 @@ jobs:
       - name: Set up Trivy
         uses: aquasecurity/setup-trivy@v0.2.4
       - name: Scan Trivy
-        run: trivy fs scan --format table -o bnm.html .
+        run: trivy fs --format table -o bnm.html .
