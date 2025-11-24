@@ -3,7 +3,7 @@ on:
   push:
     branches: [ main ]
 jobs:
-  checkout:
+  checkout_and_compile:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
@@ -16,3 +16,6 @@ jobs:
           cache: maven
       - name: Run the Maven compile phase
         run:  mvn compile
+      - name: Run the Maven package phase
+        run:  mvn package
+      
