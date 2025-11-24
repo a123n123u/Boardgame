@@ -18,5 +18,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: Run the Maven compile phase
-       run: mvn compile 
-  
+       run: mvn compile --file pom.xml
